@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 1</title>
+</head>
+
+<body>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e05d5d;
+        }
+
+
+        .navbar {
+            background-color: #e69c48;
+            overflow: hidden;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .navbar img {
+            width: 30px;
+            height: 30px;
+            padding: 5px;
+        }
+
+        .navbar a {
+            color: #eee563;
+            text-align: center;
+            padding: 10px 15px;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+            font-family: "Playpen Sans", cursive;
+        }
+
+        .active {
+            display: block;
+            opacity: 1;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .navbar .menu-toggle {
+            display: none;
+        }
+
+        .title {
+            font-size: 40px;
+            font-weight: bold;
+            font-family: 'Playpen Sans', cursive;
+        }
+
+    </style>
+    <div class="navbar">
+        <div class="menu">
+            <a href="#">Melhores filmes de ação de cada ano</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="home" class="content active">
+            <p class="title">2024</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VQuSDoDaJck?si=N_l1NeTdGS645Ext" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/U4AQsFiOz7s?si=yXcn_XzNg_zzfeIl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div id="home" class="content active">
+            <p class="title">2023</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rjaVWGz-mRg?si=nSQ3g7D_jkd8OtR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8OpP1ek1yJE?si=oolWfH0jfIfDw3bt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
